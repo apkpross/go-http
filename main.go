@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-    r := gin.Default()
+    r := gin.Defaults()
 
     r.GET("/", func(c *gin.Context) {
         // Retrieve client information
